@@ -1,0 +1,43 @@
+body {
+    background-color: #1a8000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+li {
+    list-style: none;
+    font-style: normal;
+}
+
+footer {
+    background-color: #fff;
+    text-align: center;
+    margin-top: 710px;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 450px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
